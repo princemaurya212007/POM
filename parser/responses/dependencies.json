@@ -1,0 +1,659 @@
+{
+	"length": 6,
+	"data": {
+		"pom.xml": {
+			"download_url": "https://raw.githubusercontent.com/shopizer-ecommerce/shopizer/main/pom.xml",
+			"dependencies": {
+				"org.springframework.boot": [
+					{
+						"artifactId": "spring-boot-starter-web",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-boot-starter-cache",
+						"version": "Version not specified"
+					}
+				],
+				"com.shopizer": [
+					{
+						"artifactId": "sm-core",
+						"version": "3.2.5"
+					},
+					{
+						"artifactId": "sm-core-model",
+						"version": "3.2.5"
+					},
+					{
+						"artifactId": "sm-core-modules",
+						"version": "3.2.5"
+					},
+					{
+						"artifactId": "sm-shop-model",
+						"version": "3.2.5"
+					}
+				],
+				"javax.inject": [
+					{
+						"artifactId": "javax.inject",
+						"version": "1"
+					},
+					{
+						"artifactId": "javax.inject",
+						"version": "Version not specified"
+					}
+				],
+				"org.apache.commons": [
+					{
+						"artifactId": "commons-lang3",
+						"version": "3.5"
+					},
+					{
+						"artifactId": "commons-collections4",
+						"version": "4.1"
+					},
+					{
+						"artifactId": "commons-lang3",
+						"version": "Version not specified"
+					}
+				],
+				"org.mapstruct": [
+					{
+						"artifactId": "mapstruct",
+						"version": "1.3.0.Final"
+					}
+				],
+				"io.jsonwebtoken": [
+					{
+						"artifactId": "jjwt",
+						"version": "0.8.0"
+					}
+				],
+				"com.fasterxml.jackson.core": [
+					{
+						"artifactId": "jackson-databind",
+						"version": "2.13.4.1"
+					},
+					{
+						"artifactId": "jackson-core",
+						"version": "2.13.4"
+					},
+					{
+						"artifactId": "jackson-annotations",
+						"version": "2.13.4"
+					},
+					{
+						"artifactId": "jackson-databind",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "jackson-core",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "jackson-annotations",
+						"version": "Version not specified"
+					}
+				],
+				"javax.mail": [
+					{
+						"artifactId": "mail",
+						"version": "1.4.7"
+					},
+					{
+						"artifactId": "javax.mail-api",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "mail",
+						"version": "Version not specified"
+					}
+				],
+				"com.googlecode.json-simple": [
+					{
+						"artifactId": "json-simple",
+						"version": "1.1.1"
+					},
+					{
+						"artifactId": "json-simple",
+						"version": "Version not specified"
+					}
+				],
+				"mysql": [
+					{
+						"artifactId": "mysql-connector-java",
+						"version": "8.0.21"
+					},
+					{
+						"artifactId": "mysql-connector-java",
+						"version": "Version not specified"
+					}
+				],
+				"com.google.maps": [
+					{
+						"artifactId": "google-maps-services",
+						"version": "0.1.6"
+					}
+				],
+				"org.kie": [
+					{
+						"artifactId": "kie-ci",
+						"version": "7.32.0.Final"
+					},
+					{
+						"artifactId": "kie-spring",
+						"version": "7.32.0.Final"
+					}
+				],
+				"org.drools": [
+					{
+						"artifactId": "drools-decisiontables",
+						"version": "7.32.0.Final"
+					},
+					{
+						"artifactId": "drools-core",
+						"version": "7.32.0.Final"
+					},
+					{
+						"artifactId": "drools-compiler",
+						"version": "7.32.0.Final"
+					}
+				],
+				"org.infinispan": [
+					{
+						"artifactId": "infinispan-core",
+						"version": "9.4.18.Final"
+					},
+					{
+						"artifactId": "infinispan-cachestore-jdbc",
+						"version": "9.4.18.Final"
+					},
+					{
+						"artifactId": "infinispan-tree",
+						"version": "9.4.18.Final"
+					}
+				],
+				"commons-validator": [
+					{
+						"artifactId": "commons-validator",
+						"version": "1.5.1"
+					}
+				],
+				"com.amazonaws": [
+					{
+						"artifactId": "aws-java-sdk-s3",
+						"version": "1.11.640"
+					},
+					{
+						"artifactId": "aws-java-sdk-ses",
+						"version": "1.11.640"
+					}
+				],
+				"com.google.cloud": [
+					{
+						"artifactId": "google-cloud-storage",
+						"version": "1.74.0"
+					}
+				],
+				"com.paypal.sdk": [
+					{
+						"artifactId": "merchantsdk",
+						"version": "2.6.109"
+					}
+				],
+				"com.stripe": [
+					{
+						"artifactId": "stripe-java",
+						"version": "19.5.0"
+					}
+				],
+				"com.braintreepayments.gateway": [
+					{
+						"artifactId": "braintree-java",
+						"version": "2.73.0"
+					}
+				],
+				"com.maxmind.geoip2": [
+					{
+						"artifactId": "geoip2",
+						"version": "2.7.0"
+					}
+				],
+				"com.google.guava": [
+					{
+						"artifactId": "guava",
+						"version": "27.1-jre"
+					}
+				],
+				"commons-io": [
+					{
+						"artifactId": "commons-io",
+						"version": "2.7"
+					}
+				],
+				"commons-fileupload": [
+					{
+						"artifactId": "commons-fileupload",
+						"version": "1.3.3"
+					}
+				],
+				"io.springfox": [
+					{
+						"artifactId": "springfox-swagger2",
+						"version": "2.9.2"
+					},
+					{
+						"artifactId": "springfox-swagger-ui",
+						"version": "2.9.2"
+					}
+				],
+				"javax.annotation": [
+					{
+						"artifactId": "javax.annotation-api",
+						"version": "1.3.2"
+					}
+				],
+				"javax.validation": [
+					{
+						"artifactId": "validation-api",
+						"version": "Version not specified"
+					}
+				],
+				"net.sf.ehcache": [
+					{
+						"artifactId": "ehcache",
+						"version": "Version not specified"
+					}
+				],
+				"org.junit.vintage": [
+					{
+						"artifactId": "junit-vintage-engine",
+						"version": "Version not specified"
+					}
+				]
+			}
+		},
+		"sm-core-model/pom.xml": {
+			"download_url": "https://raw.githubusercontent.com/shopizer-ecommerce/shopizer/main/sm-core-model/pom.xml",
+			"dependencies": {
+				"org.springframework.boot": [
+					{
+						"artifactId": "spring-boot-starter-data-jpa",
+						"version": "Version not specified"
+					}
+				],
+				"javax.validation": [
+					{
+						"artifactId": "validation-api",
+						"version": "Version not specified"
+					}
+				],
+				"com.fasterxml.jackson.core": [
+					{
+						"artifactId": "jackson-annotations",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "jackson-databind",
+						"version": "Version not specified"
+					}
+				],
+				"org.json": [
+					{
+						"artifactId": "json",
+						"version": "20211205"
+					}
+				],
+				"com.googlecode.json-simple": [
+					{
+						"artifactId": "json-simple",
+						"version": "Version not specified"
+					}
+				],
+				"org.apache.commons": [
+					{
+						"artifactId": "commons-lang3",
+						"version": "Version not specified"
+					}
+				],
+				"org.springframework": [
+					{
+						"artifactId": "spring-webmvc",
+						"version": "Version not specified"
+					}
+				],
+				"commons-io": [
+					{
+						"artifactId": "commons-io",
+						"version": "Version not specified"
+					}
+				],
+				"commons-fileupload": [
+					{
+						"artifactId": "commons-fileupload",
+						"version": "Version not specified"
+					}
+				]
+			}
+		},
+		"sm-core-modules/pom.xml": {
+			"download_url": "https://raw.githubusercontent.com/shopizer-ecommerce/shopizer/main/sm-core-modules/pom.xml",
+			"dependencies": {
+				"com.shopizer": [
+					{
+						"artifactId": "sm-core-model",
+						"version": "Version not specified"
+					}
+				]
+			}
+		},
+		"sm-core/pom.xml": {
+			"download_url": "https://raw.githubusercontent.com/shopizer-ecommerce/shopizer/main/sm-core/pom.xml",
+			"dependencies": {
+				"org.springframework.boot": [
+					{
+						"artifactId": "spring-boot-starter-data-jpa",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-boot-starter-test",
+						"version": "Version not specified"
+					}
+				],
+				"org.hibernate": [
+					{
+						"artifactId": "hibernate-ehcache",
+						"version": "Version not specified"
+					}
+				],
+				"com.shopizer": [
+					{
+						"artifactId": "sm-core-model",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "sm-core-modules",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "shipping-canadapost-spring-boot-starter",
+						"version": "2.17.0"
+					},
+					{
+						"artifactId": "shopizer-commons",
+						"version": "1.0.6"
+					},
+					{
+						"artifactId": "shopizer-search-opensearch-spring-boot-starter",
+						"version": "1.0.3"
+					}
+				],
+				"com.google.maps": [
+					{
+						"artifactId": "google-maps-services",
+						"version": "Version not specified"
+					}
+				],
+				"org.kie": [
+					{
+						"artifactId": "kie-ci",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "kie-spring",
+						"version": "Version not specified"
+					}
+				],
+				"org.drools": [
+					{
+						"artifactId": "drools-decisiontables",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "drools-core",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "drools-compiler",
+						"version": "Version not specified"
+					}
+				],
+				"org.infinispan": [
+					{
+						"artifactId": "infinispan-core",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "infinispan-tree",
+						"version": "Version not specified"
+					}
+				],
+				"org.apache.commons": [
+					{
+						"artifactId": "commons-collections4",
+						"version": "Version not specified"
+					}
+				],
+				"commons-validator": [
+					{
+						"artifactId": "commons-validator",
+						"version": "Version not specified"
+					}
+				],
+				"org.freemarker": [
+					{
+						"artifactId": "freemarker",
+						"version": "Version not specified"
+					}
+				],
+				"org.springframework": [
+					{
+						"artifactId": "spring-context-support",
+						"version": "Version not specified"
+					}
+				],
+				"org.apache.httpcomponents": [
+					{
+						"artifactId": "httpclient",
+						"version": "Version not specified"
+					}
+				],
+				"com.amazonaws": [
+					{
+						"artifactId": "aws-java-sdk-s3",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "aws-java-sdk-ses",
+						"version": "Version not specified"
+					}
+				],
+				"com.google.cloud": [
+					{
+						"artifactId": "google-cloud-storage",
+						"version": "Version not specified"
+					}
+				],
+				"com.paypal.sdk": [
+					{
+						"artifactId": "merchantsdk",
+						"version": "Version not specified"
+					}
+				],
+				"com.stripe": [
+					{
+						"artifactId": "stripe-java",
+						"version": "Version not specified"
+					}
+				],
+				"com.braintreepayments.gateway": [
+					{
+						"artifactId": "braintree-java",
+						"version": "Version not specified"
+					}
+				],
+				"com.maxmind.geoip2": [
+					{
+						"artifactId": "geoip2",
+						"version": "Version not specified"
+					}
+				],
+				"com.google.guava": [
+					{
+						"artifactId": "guava",
+						"version": "Version not specified"
+					}
+				],
+				"com.h2database": [
+					{
+						"artifactId": "h2",
+						"version": "Version not specified"
+					}
+				]
+			}
+		},
+		"sm-shop-model/pom.xml": {
+			"download_url": "https://raw.githubusercontent.com/shopizer-ecommerce/shopizer/main/sm-shop-model/pom.xml",
+			"dependencies": {
+				"com.shopizer": [
+					{
+						"artifactId": "sm-core-model",
+						"version": "Version not specified"
+					}
+				],
+				"org.springframework": [
+					{
+						"artifactId": "spring-core",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-webmvc",
+						"version": "Version not specified"
+					}
+				],
+				"javax.annotation": [
+					{
+						"artifactId": "javax.annotation-api",
+						"version": "Version not specified"
+					}
+				],
+				"io.springfox": [
+					{
+						"artifactId": "springfox-swagger2",
+						"version": "Version not specified"
+					}
+				]
+			}
+		},
+		"sm-shop/pom.xml": {
+			"download_url": "https://raw.githubusercontent.com/shopizer-ecommerce/shopizer/main/sm-shop/pom.xml",
+			"dependencies": {
+				"com.shopizer": [
+					{
+						"artifactId": "sm-core",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "sm-core-model",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "sm-shop-model",
+						"version": "Version not specified"
+					}
+				],
+				"org.springframework.boot": [
+					{
+						"artifactId": "spring-boot-starter-security",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-boot-starter-aop",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-boot-starter-actuator",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-boot-starter-tomcat",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "spring-boot-starter-test",
+						"version": "Version not specified"
+					}
+				],
+				"com.google.guava": [
+					{
+						"artifactId": "guava",
+						"version": "Version not specified"
+					}
+				],
+				"org.apache.tomcat.embed": [
+					{
+						"artifactId": "tomcat-embed-jasper",
+						"version": "Version not specified"
+					}
+				],
+				"commons-collections": [
+					{
+						"artifactId": "commons-collections",
+						"version": "3.2.2"
+					}
+				],
+				"org.mapstruct": [
+					{
+						"artifactId": "mapstruct",
+						"version": "Version not specified"
+					}
+				],
+				"com.h2database": [
+					{
+						"artifactId": "h2",
+						"version": "Version not specified"
+					}
+				],
+				"io.jsonwebtoken": [
+					{
+						"artifactId": "jjwt",
+						"version": "Version not specified"
+					}
+				],
+				"io.springfox": [
+					{
+						"artifactId": "springfox-swagger2",
+						"version": "Version not specified"
+					},
+					{
+						"artifactId": "springfox-swagger-ui",
+						"version": "Version not specified"
+					}
+				],
+				"org.springframework.security": [
+					{
+						"artifactId": "spring-security-test",
+						"version": "Version not specified"
+					}
+				],
+				"org.apache.commons": [
+					{
+						"artifactId": "commons-rng-simple",
+						"version": "1.3"
+					}
+				],
+				"org.owasp.antisamy": [
+					{
+						"artifactId": "antisamy",
+						"version": "1.6.7"
+					}
+				],
+				"org.passay": [
+					{
+						"artifactId": "passay",
+						"version": "1.6.0"
+					}
+				]
+			}
+		}
+	}
+}
